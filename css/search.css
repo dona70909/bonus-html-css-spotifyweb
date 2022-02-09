@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body{
@@ -12,27 +13,28 @@ body{
 
 a{
     text-decoration: none;
-    color:white;
+}
+
+.main-content{
+    background-color: #121212;
 }
 
 /* !_________________________ SEARCH_____________ */
 .top-search{
     height: 80px;
-    background-color: red;
     justify-content: space-between;
     align-items:center ;
     padding: 10px;
 }
 
 .top-search-left-item > i{
-    background-color: black;
+    background-color: rgb(34, 33, 33);
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 2.5rem;
     text-align: center;
     line-height: 2.5rem;
     vertical-align: middle;
-    color: white;
     margin-right: .5rem;
 }
 
@@ -52,16 +54,16 @@ a{
 
 /* ! _______________YOUR TOP GENRES_____________*/
 
-.title-top-genres a{
-    color: black;
+.title-all-genres a{
     padding: 10px;
+    font-size: 2rem;
 }
 
 .container-top-genres{
     height: 250px;
-    background-color: blue;
     padding: 10px;
     overflow-x: scroll;
+    margin-bottom: 2rem;
 }
 
 .top-genre-item {
@@ -69,29 +71,42 @@ a{
     /* width: calc((100% / 3) - 2rem); */ 
     width: 300px;
     border-radius: 20px; 
-    background-color:orange;
     margin-right: 1rem;
     flex-shrink: 0;
+    overflow: hidden;
+    
+}
+
+.top-genre-item a{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.rock{
+    background-color: red;
+}
+
+.top-genre-item > img{
+    width: 80px;
+    height: 80px;
+    transform: rotate(35deg);
+    bottom:0;
+    right: 0;
+    
 }
 
 .title-genre {
     top: 0;
     left: 50px;
     z-index: 1;
-    color: black;
-}
-
-.browse a{
-    color:black;
-    padding: 10px;
-    margin: .5rem;
 }
 
 /* ! _______________________ ALL GENRES_______________*/
 
 .title-all-genres a{
-    color: black;
     padding: 10px ;
+    font-weight: 900;
+
 }
 
 .container-all-genres{
