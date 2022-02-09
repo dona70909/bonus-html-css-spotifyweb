@@ -218,15 +218,21 @@ main{
     padding: 10px;
     gap:1.5% 3%;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 /* cards flex-items */
 .card{
     width: calc(100% / 6);
+    background-color: #1c222e;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
 } 
 
 .card img{
     object-fit: contain;
     width: 100%;
+    border-radius: 5%;
 }
 
 .img-circle{
@@ -428,6 +434,14 @@ body{
 .container-img-relative:hover .center-play{
     display: block;
     pointer-events: none;
+}
+
+.card :hover .center-play{
+    display: block;
+}
+
+.card img:hover{
+    filter: drop-shadow(10px 10px 10px black);
 }
 
 .top-banner > a:hover{
