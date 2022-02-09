@@ -54,9 +54,10 @@ a{
 
 /* ! _______________YOUR TOP GENRES_____________*/
 
-.title-all-genres a{
+.title-top-genres{
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
 .container-top-genres{
@@ -86,6 +87,22 @@ a{
     background-color: red;
 }
 
+.pop{
+    background-color: #608108;
+}
+
+.dance{
+    background-color: #8d67ab;
+}
+
+.electronic{
+    background-color: #618b8c;
+}
+
+.indie{
+    background-color: #dc148c;
+}
+
 .top-genre-item > img{
     width: 80px;
     height: 80px;
@@ -106,7 +123,7 @@ a{
 .title-all-genres a{
     padding: 10px ;
     font-weight: 900;
-
+    font-size: 1.5rem;
 }
 
 .container-all-genres{
@@ -116,13 +133,20 @@ a{
 
 /* ? felx */
 .all-genre-item{
-    background-color: aquamarine;
     width: calc((100% / 6) - 1rem);
     height: 200px;
     margin:.5rem .5rem ;
     border-radius: 20px;
     flex-shrink: 0;
-    
+    overflow: hidden;
+}
+
+.all-genre-item img{
+    width: 80px;
+    height: 80px;
+    transform: rotate(35deg);
+    bottom:0;
+    right: 0;
 }
 
 .genre-item-title{
@@ -130,6 +154,31 @@ a{
     left: 1rem;
 }
 
+
+/* colours */
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: #1e3264;
+}
+
+.violet{
+    background-color: #8d67ab;
+}
+
+.orange{
+    background-color: #ba5d07;
+}
+
+.salmon{
+    background-color: #e8115b;
+}
+
+.green{
+    background-color: #148a08;
+}
 
 /* ! _____________________LARGE__________ */
 @media screen and (min-width:992px) and (max-width:1199px) {
