@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.top-search{
+    height: 80px;
+    background-color: red;
+}
+
+.top-genres{
+    height: 250px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.genere{
+    height: 200px;
+    width: 400px;
+    border-radius: 20px; 
+    background-color: azure;
+    margin-right: 1rem;
+}
+
+.title-genre {
+    top: 0;
+    left: 50px;
+    z-index: 1;
+    color: black;
+}
+
+.container-all-genres{
+    padding: 10px;
+}
+
+.genre-item{
+    background-color: aquamarine;
+    height: 200px;
+    width: 150px;
+    margin:.5rem .5rem ;
+    border-radius: 20px;
+}
