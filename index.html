@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- cdnjs icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <!-- title + icon -->
+    <title>Boolify</title>
+    <link  rel="shortcut icon" href="img/logo-small.svg" type="logo icon small">
+</head>
+<body>
+    <main>
+
+        <!-- todo container(flex row) aside menu + main content -->
+        <section class="flex">
+
+            <!-- todo--- ASIDE MENU-->
+            <aside class="aside flex ">
+
+                <!-- TOP ASIDE MENU : Logo-Home-Playlist -->
+                <div class="top-aside">
+
+                    <!-- LOGO(Aside menu) -->
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="logo spotify">
+                        <div class="">
+                            <!-- <i class="fab fa-spotify"></i>  -->
+                            <object class="logo-spotify grey" data="img/logo-small.svg" type=""></object>
+                        </div>
+                    </div>
+
+                    <!-- HOME (ASIDE MENU) -->
+                    <div class="home">
+                        <ul>
+                            <li>
+                                <div class="border-left-line">
+                                    <object class="grey" data="img/home.svg" type=""></object>
+                                    <a href="#">Home</a>
+                                </div>
+                            </li>
+    
+                            <li>
+                                <div class="border-left-line">
+                                    <object data="img/search.svg" type=""></object>
+                                    <a href="#">Cerca</a>
+                                </div>
+                            </li>
+    
+                            <li>
+                                <div class="border-left-line">
+                                    <object data="img/libreria.svg" type=""></object>
+                                    <a href="#">La tua libreria</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- PLAYLIST (Playlist menu) -->
+                    <div class="playlist">
+                        <h2>Playlist</h2>
+                        <div class="new-playlist">
+                            <i class="fas fa-plus-square"></i>
+                            <a href="#">Crea playlist</a>
+                        </div>
+                        <ul>
+                            <li>Nome playlist</li>
+                            <li>Nome playlist</li>
+                            <li>Nome playlist</li>
+                            <li>Nome playlist</li>
+                            <li>Nome playlist</li>
+                            <li>Nome playlist</li>
+                            <li>Nome playlist</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- BOTTOM ASIDE MENU -->
+                <div class="bottom-aside ">
+
+                    <!-- Install app icon  -->
+                    <div class="install-app border-bottom">
+                        <i class="far fa-arrow-alt-circle-down"></i>
+                        <a href="#">Install app</a>
+                    </div>
+
+                    <!-- User svg img icon  -->
+                    <div class="user">
+                        <object data="img/profile.svg" type=""></object>
+                        <a href="#">John Doe</a>
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <!-- todo--- MAIN content : TOP-BANNER - PLAYLISTS -->
+            <section class="main-content">
+
+                <!-- *TOP BANNER  -->
+                <div class="top-banner flex">
+                    <a href="#">Effettua l'upgrade</a>
+                </div>
+
+                <!-- *PLAYLISTS CONTAINER -->
+                <div class="playlists-rows">
+
+                    <!-- * LIST MENU TOP -->
+                    <div class="list-menu flex">
+                        <ul>
+                            <li>
+                                <a href="#">In Evidenza</a>
+                                <hr>
+                            </li>
+                            <li> 
+                                <a href="#">Podcast</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="#">Classifiche</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="#">Generi e mood</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="#">Nuove Uscite</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="#">Scopri</a>
+                                <hr>
+                            </li>
+                        </ul> 
+                    </div>
+
+                    <!-- !TITLE PLAYLIST -  FIRST ROW - recently-played -->
+                    <div class="title-playlists">
+                        <h1>Recently played</h1>
+                    </div>
+
+                    <!-- ? RECENTLY PLAYED PLAYLISTS -->
+                    <div class="container-cards flex recently-played-playlists">
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/metal_lifting.jpg" alt="metal picture">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Heavy Metal</h4>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/stranger.jpeg" alt="Strangers things">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Strangers things,Vol.1(a Netflix Original Series Soundtrack)</h4>
+                            <p>Kyle Dixon and Micheal Stein</p>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/aquietplace.jpeg" alt="A quiet place ">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>A quiet piece</h4>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/split.jpeg" alt="Split">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Split</h4>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/cure.jpeg" alt="cure picture">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>A cure for wellness</h4>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/sinister.jpeg" alt="sinister">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Sinister</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        
+                    </div>
+
+                    <!-- !TITLE PLAYLIST - SECOND ROW - user-playlists -->
+                    <div class="title-playlists">
+                        <h1>Creato per Jhon Doe</h1>
+                        <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                    </div>
+
+                    <!-- ? USER PLAYLISTS -->
+                    <div class="container-cards flex user-playlists">
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/radar.jpeg" alt="radar ">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Realease Radar</h4>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img src="img/mixdaily.jpeg" alt="Il tup daily">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Daily Mix 1</h4>
+                        </div>
+                    </div>
+
+                    <!-- !TITLE PLAYLIST - THIRD ROW - popular-playlists -->
+                    <div class="title-playlists">
+                        <h1>Artisti più popolari</h1>
+                        <p>Più ascolti, più accurati saranno i suggerimenti</p>
+                    </div>
+
+                    <!-- ? POPULAR PLAYLISTS -->
+                    <div class="container-cards flex popular-playlists">
+                        
+                        <div class="card flex-item ">
+                            <div class="relative container-img-relative">
+                                <img class="img-circle" src="img/youg.jpeg" alt="lana del rey">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            
+                            <h4>Lana del Rey</h4>
+                        </div>
+
+                        <div class="card flex-item">
+                            <div class="relative container-img-relative">
+                                <img  class="img-circle" src="img/einaudi.jpeg" alt="Einaudi">
+                                <i class="fas fa-play absolute center-play"></i>
+                            </div>
+                            <h4>Ludovico Einaudi</h4>
+                        </div>
+
+                        
+                    </div>
+
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- todo-- BOTTOM nav bar fixed(vh)  -->
+    <footer class="flex bottom-bar">
+
+        <!-- !LEFT PLAYER  -->
+        <div class="footer-left flex">
+
+            <!-- IMG ALBUM -->
+            <img class="small-img" src="img/sinister.jpeg" alt="sinister play song">
+
+            <!-- BRANO TITLE AND ARTIST -->
+            <div class="flex-clm footer-brano-play">
+                <h4>Sinister</h4>
+                <p>Brano nome</p>
+            </div>
+
+            <!-- BRANO HEART AND FOLDER -->
+            <div class="footer-brano-icons">
+                <i class="far fa-heart"></i>
+                <i class="far fa-folder"></i>
+            </div>
+
+        </div>
+
+        <!-- ! FOOTER MIDDLE: TOP - BOTTOM -->
+        <div class="footer-middle flex-clm ">
+
+            <!-- FOOTER MIDDLE TOP PLAYER -->
+            <div class="footer-middle-top flex">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="fas fa-play"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo"></i>
+            </div>
+
+            <!-- FOOTER MIDDLE BOTTOM PROGRESS BAR -->
+            <div class="footer-middle-bottom flex">
+                <span class="time">0:25</span>
+                <div class="progress-bar-big">
+                    <div class="progress-time relative">
+                        <div class="circle absolute">
+
+                        </div>
+                    </div>
+                </div>
+                <span class="time">4:35</sapn>
+            </div>
+
+        </div>
+
+        <!-- ! FOOTER RIGHT : ICONS + SMALLER PROGRESS BAR -->
+        <div class="footer-right flex">
+
+            <!-- icons -->
+            <i class="fas fa-list"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-down"></i>
+
+            <!-- smaller progress bar -->
+            <div class="progress-bar-small">
+                <div class="progress-time relative">
+                    <div class="circle absolute">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
