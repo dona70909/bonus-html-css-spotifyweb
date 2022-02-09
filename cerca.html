@@ -105,11 +105,20 @@
         <!-- todo--- MAIN content : TOP-BANNER - PLAYLISTS -->
         <section class="main-content">
             
-            <div class="top-search">
-                <i class="fas fa-angle-left"></i>
-                <i class="fas fa-angle-right"></i>
-                <button><input type="search"></button>
-                <a href="#" class="user-btn">User name</a>
+            <div class="top-search flex">
+                <div class="top-search-left-item flex">
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-right"></i>
+
+                    <div class="relative">
+                        <input class="absolute search-box" type="search" placeholder="Artisti,brani,podcast" >
+                        <i class="absolute fas fa-search"></i>
+                    </div>
+                </div>
+
+                <div class="top-search-right-item">
+                    <a href="#" class="user-btn">User name</a>
+                </div>
             </div>
 
             <div class="musical-genres ">
