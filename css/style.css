@@ -387,6 +387,14 @@ main{
     width: 70px;
 }
 
+.bottom-bar{
+    overflow: hidden;
+}
+
+body{
+    min-width: 50vh;
+    min-height: 50vh;
+}
 /* todo  ++++++++++++++++++++++++++++++++ HOVER +++++++++++++++++++++++++++++++ */
 .relative{
     position: relative;
