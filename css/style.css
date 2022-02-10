@@ -165,7 +165,6 @@ main{
     width: calc(100vw - 200px);
     overflow-y: scroll; 
     height: calc(100vh - 80px);
-  
     background-color: rgb(20, 25, 34);
 }
 
