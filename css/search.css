@@ -16,7 +16,7 @@ a{
 }
 
 .main-content{
-    background-color: #121212;
+    background-color: #141922;
 }
 
 /* !_________________________ SEARCH_____________ */
@@ -52,6 +52,26 @@ a{
     padding: .5rem;
 }
 
+input{
+    color: grey;
+}
+input[type=search]:focus{
+    outline: none !important;
+}
+/* ? ++++  placeholder search+++++  */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    font-weight: 700;
+    /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}  
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
 /* ! _______________YOUR TOP GENRES_____________*/
 
 .title-top-genres{
