@@ -468,15 +468,17 @@ body{
     color:white;
 }
 
-hr{
-    display: none;
+/* # list menu hover and fix transparent border */
+.list-menu li {
+    border-bottom: 1px transparent;
 }
 
-.list-menu li:hover hr{
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    color: #90d42d;
+.list-menu li a {
+    border-bottom: 1px transparent;
+}
+
+.list-menu li:hover {
+    border-bottom: 1px solid #90d42d ;
 }
 
 .home > ul > li:hover .border-left-line{
