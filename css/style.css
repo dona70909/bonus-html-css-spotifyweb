@@ -584,7 +584,7 @@ hr{
     }
     /* cards flex-items */
     .card{
-        width: calc(100% - 2rem);
+        width: calc((100% / 2) - 2rem);
         margin:0 1rem 1rem;
     } 
     /* ? +++++++++ */
@@ -606,6 +606,10 @@ hr{
 
 /* !____________________EXTRA SMALL______ */
 @media screen and (max-width:576px) {
+
+    body{
+        height: 100vh;
+    }
     
     /* ?   ASIDE MENU--- */
     .aside{
@@ -698,6 +702,14 @@ hr{
 
     footer{
         justify-content: center;
+    }
+
+    .small-img {
+        width: 40px;
+    }
+
+    .footer-brano-play {
+        font-size: .5rem;
     }
 
     .footer-middle{
