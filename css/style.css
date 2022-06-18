@@ -584,7 +584,7 @@ hr{
     }
     /* cards flex-items */
     .card{
-        width: calc((100% / 2) - 2rem);
+        width: calc((100%) - 2rem);
         margin:0 1rem 1rem;
     } 
     /* ? +++++++++ */
